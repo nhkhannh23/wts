@@ -1,0 +1,43 @@
+
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border: solid black 2px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    /* animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 2s ease-in 1s infinite normal;
+}
+/* @keyframes colorAnimate {
+    from {left: 0px; 
+         background-color: yellow;
+         }
+
+
+    to  {left: 200px;
+        background-color: red;
+        color: antiquewhite;
+    }
+    
+} */
+@keyframes colorAnimate {
+    0% {left: 0px; 
+         background-color: yellow;
+         }
+
+         
+    50% {left: 200px;
+        background-color: rgb(19, 187, 84);
+        color: antiquewhite;
+    }
+    100% {left: 300px;
+        background-color: red;
+        color: antiquewhite;}
+}
